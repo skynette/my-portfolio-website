@@ -8,7 +8,42 @@ export const projects = [
     visit: 'https://google.com',
     id: 0,
   },
- 
+  {
+    title: 'Movieland',
+    description: "Using React.",
+      image: '/images/1.png',
+      tags: ['React', "Python", "Django"],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 1,
+  },
+  {
+    title: 'Movieland',
+    description: "Using React.",
+      image: '/images/1.png',
+      tags: ['React', "Django rest framework"],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Movieland',
+    description: "Using React.",
+      image: '/images/1.png',
+      tags: ['React'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 3,
+  },
+  {
+    title: 'Movieland',
+    description: "Using React.",
+      image: '/images/1.png',
+      tags: ['React'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
