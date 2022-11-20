@@ -136,7 +136,7 @@ export const SecondaryBtn = styled.button`
   }
 
   &:hover {
-    color: #0f1624;
+    color: #000000;
     background: #fff;
     border: 1px solid #fff;
   }
@@ -253,7 +253,7 @@ export const LinkContainer = styled.div`
   padding: 8px;
 
   &:hover {
-    background-color: #212d45;
+    background-color: #000000;
     transform: scale(1.2);
     cursor: pointer;
   }

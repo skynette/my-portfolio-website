@@ -10,7 +10,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel: 111-111-1111'>111-111-1111</LinkItem>
+          <LinkItem href='tel: 234-818-233-6574'>234-818-233-6574</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -22,13 +22,13 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https:github.com'>
+          <SocialIcons href='https://github.com/skynette'>
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href='https:github.com'>
+          <SocialIcons href='https://www.linkedin.com/in/joshua-hassan-01b443179/'>
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href='https:github.com'>
+          <SocialIcons href='https://twitter.com/cut3josh'>
             <AiFillTwitterSquare size="3rem" />
           </SocialIcons>
         </SocialContainer>
