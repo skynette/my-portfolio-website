@@ -8,6 +8,15 @@ export const projects = [
     visit: 'https://movieland-react-basics.netlify.app/',
     id: 0,
   },
+  {
+    title: 'Guuuuuuugle',
+    description: "Built a Google search engine clone using an external API and ReactJs.",
+      image: '/images/guugle.png',
+      tags: ['React', 'RestAPI', 'Tailwind'],
+    source: 'https://github.com/skynette/guugle',
+    visit: 'https://guuuuuuugle.netlify.app/search',
+    id: 1,
+  },
 ];
 
 export const TimeLineData = [
