@@ -45,7 +45,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>Some shit about how i started learning and accomplishments</SectionText>
+      <SectionText>I am a software developer with a passion for building intuitive and user-friendly applications. I have experience in both frontend and backend development using a variety of technologies, including Django, Django rest framework, React Js and others. In my free time, I enjoy staying up to date with the latest developments in the tech industry and exploring new ways to improve my skills. I am always eager to take on new challenges and collaborate with other developers on exciting projects. Thank you for visiting my site and please don't hesitate to reach out if you have any questions or would like to collaborate on a project.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) =>(
