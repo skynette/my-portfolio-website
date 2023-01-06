@@ -19,7 +19,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
@@ -45,13 +45,17 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>I am a software developer with a passion for building intuitive and user-friendly applications. I have experience in both frontend and backend development using a variety of technologies, including Django, Django rest framework, React Js and others. In my free time, I enjoy staying up to date with the latest developments in the tech industry and exploring new ways to improve my skills. I am always eager to take on new challenges and collaborate with other developers on exciting projects. Thank you for visiting my site and please don't hesitate to reach out if you have any questions or would like to collaborate on a project.</SectionText>
+      <SectionText>I am a software developer with a passion for building intuitive and user-friendly applications. I have experience in both
+        frontend and backend development using a variety of technologies,
+        including Django, Django rest framework, React Js and others. In my free time, I enjoy staying up to date with the latest developments in the tech industry and exploring new ways to improve my skills. I am always eager to take on new challenges and collaborate with other developers on exciting projects. Thank you for visiting my site and please
+        don't hesitate to <a href="mailto:cutejosh2@gmail.com">reach out </a> if you have any questions or would like to collaborate on a project.
+      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {TimeLineData.map((item, index) =>(
+          {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
-              <CarouselItem index={index} id={`carousel__item-${index}`} active={activeItem} onClick={(e)=>handleClick(e, index)}>
-                <CarouselItemTitle> 
+              <CarouselItem index={index} id={`carousel__item-${index}`} active={activeItem} onClick={(e) => handleClick(e, index)}>
+                <CarouselItemTitle>
                   {item.year}
                   <CarouselItemImg
                     width="208"
@@ -93,13 +97,13 @@ const Timeline = () => {
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index) =>(
-          <CarouselButton key={index} index={index} active={activeItem} onClick={(e)=> handleClick(e, index)} type="button">
-            <CarouselButtonDot active={activeItem}/>
+        {TimeLineData.map((item, index) => (
+          <CarouselButton key={index} index={index} active={activeItem} onClick={(e) => handleClick(e, index)} type="button">
+            <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider/>
+      <SectionDivider />
     </Section>
   );
 };
