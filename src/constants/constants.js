@@ -10,6 +10,16 @@ export const projects = [
 		inDevelopment: false,
 	},
 	{
+		title: 'Photo ALbum',
+		description: "",
+		image: '/images/photo_album.png',
+		tags: ['React', 'Redux/Toolkit', 'MUIv5'],
+		source: 'https://github.com/skynette/photo-album-template',
+		visit: 'https://photo-album-template.vercel.app/',
+		id: 2,
+		inDevelopment: false,
+	},
+	{
 		title: 'Guuuuuuugle',
 		description: "Built a Google search engine clone using an external API and ReactJs.",
 		image: '/images/guugle.png',
@@ -18,6 +28,16 @@ export const projects = [
 		visit: 'https://guuuuuuugle.netlify.app/search',
 		id: 2,
 		inDevelopment: true,
+	},
+	{
+		title: 'Sociomedia',
+		description: "SocialMedia is a social networking web application built with React, Material UI, Node.js, Express, and MongoDB. It allows users to create profiles, make posts, follow other users and like posts.",
+		image: '/images/sociomedia.png',
+		tags: ['React', 'MUIv5', 'Node', 'Express', 'MongoDB'],
+		source: 'https://github.com/skynette/socialmedia',
+		visit: 'https://socialmedia-vert.vercel.app/',
+		id: 22,
+		inDevelopment: false,
 	},
 	{
 		title: 'Movieland',
