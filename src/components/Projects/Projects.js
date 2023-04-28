@@ -11,7 +11,7 @@ const Projects = () => (
     <GridContainer>
       {projects.map((project)=>(
         <BlogCard>
-			{project.inDevelopment ? <StyledBadge color="#22a4c9">In Development</StyledBadge>:<StyledBadge color="#4CFF00">Completed</StyledBadge>} 
+			{project.inDevelopment ? <StyledBadge color="#22a4c9">In Development</StyledBadge>:<StyledBadge color="#2E9900">Completed</StyledBadge>} 
           <Img src={project.image}/>
           <TitleContent>
             <HeaderThree title>{project.title}</HeaderThree>
@@ -19,7 +19,7 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{project.description}</CardInfo>
           <div>
-            <TitleContent>Stack</TitleContent>
+            <TitleContent>Tech Stack</TitleContent>
             <TagList>
               {project.tags.map((tag, i)=>(
                 <Tag key={i}>{tag}</Tag>

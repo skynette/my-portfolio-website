@@ -11,7 +11,7 @@ export const projects = [
 	},
 	{
 		title: 'Photo ALbum',
-		description: "",
+		description: "This is a simple photo album template built using React and Material UI. It allows you to easily create a photo album with a clean and modern design.",
 		image: '/images/photo_album.png',
 		tags: ['React', 'Redux/Toolkit', 'MUIv5'],
 		source: 'https://github.com/skynette/photo-album-template',
