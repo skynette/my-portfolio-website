@@ -20,13 +20,23 @@ export const projects = [
 		inDevelopment: false,
 	},
 	{
+		title: 'Evogym',
+		description: "This is a Gym Site Landing Page built using React, Vite, TypeScript, TailwindCSS, and Framer Motion.",
+		image: '/images/gym.png',
+		tags: ['React', 'Typescript', 'Tailwind', 'Framer Motion'],
+		source: 'https://github.com/skynette/gym.git',
+		visit: 'https://evo-gym-v1.vercel.app/',
+		id: 23,
+		inDevelopment: false,
+	},
+	{
 		title: 'Guuuuuuugle',
 		description: "Built a Google search engine clone using an external API and ReactJs.",
 		image: '/images/guugle.png',
 		tags: ['React', 'RestAPI', 'Tailwind'],
 		source: 'https://github.com/skynette/guugle',
 		visit: 'https://guuuuuuugle.netlify.app/search',
-		id: 2,
+		id: 7,
 		inDevelopment: true,
 	},
 	{
@@ -53,8 +63,9 @@ export const projects = [
 
 export const TimeLineData = [
 	{ year: 2017, text: 'Started my programming journey as a hobby', },
-	{ year: 2019, text: 'Started Working as a freelance developer', },
-	{ year: 2019, text: 'Founded San Tech', },
-	{ year: 2020, text: 'Shared my projects with the world', },
-	{ year: 2021, text: 'Started my own platform', },
+	{ year: 2018, text: 'Dabbled around with cyber security and game development using Unity', },
+	{ year: 2019, text: 'Picked up problem solving as a hobby, hackkerank, code wars etc', },
+	{ year: 2020, text: 'Start of an awesome career freelancing', },
+	{ year: 2020, text: 'Dabbled with mobile development before going back to web', },
+	{ year: 2022, text: 'Took frontend web development seriously', },
 ];

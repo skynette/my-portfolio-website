@@ -45,10 +45,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>I am a software developer with a passion for building intuitive and user-friendly applications. I have experience in both
-        frontend and backend development using a variety of technologies,
-        including Django, Django rest framework, React Js and others. In my free time, I enjoy staying up to date with the latest developments in the tech industry and exploring new ways to improve my skills. I am always eager to take on new challenges and collaborate with other developers on exciting projects. Thank you for visiting my site and please
-        don't hesitate to <a href="mailto:cutejosh2@gmail.com">reach out </a> if you have any questions or would like to collaborate on a project.
+      <SectionText>I'm a software developer skilled in frontend and backend development. I focus on creating intuitive and user-friendly applications, while staying up-to-date with the latest tech trends. Open to exciting collaborations and challenges, feel free to reach out at <a href="mailto:cutejosh2@gmail.com">cutejosh2@gmail.com</a>. Thank you for visiting my site!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
