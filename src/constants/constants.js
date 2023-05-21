@@ -30,6 +30,16 @@ export const projects = [
 		inDevelopment: false,
 	},
 	{
+		title: 'Captur',
+		description: "A landing page for photography built with Next.js and Tailwind CSS.",
+		image: '/images/captur.png',
+		tags: ['NextJs', 'Tailwind CSS'],
+		source: 'https://github.com/skynette/captur.git',
+		visit: 'https://captur-photo.vercel.app/',
+		id: 23,
+		inDevelopment: false,
+	},
+	{
 		title: 'Guuuuuuugle',
 		description: "Built a Google search engine clone using an external API and ReactJs.",
 		image: '/images/guugle.png',
