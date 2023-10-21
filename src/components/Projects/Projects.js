@@ -5,35 +5,35 @@ import { Section, SectionDivider, SectionTitle, StyledBadge } from '../../styles
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <Section nopadding id="projects">
-    <SectionDivider/>
-    <SectionTitle main>Projects</SectionTitle>
-    <GridContainer>
-      {projects.map((project)=>(
-        <BlogCard>
-			{project.inDevelopment ? <StyledBadge color="#22a4c9">In Development</StyledBadge>:<StyledBadge color="#2E9900">Completed</StyledBadge>} 
-          <Img src={project.image}/>
-          <TitleContent>
-            <HeaderThree title>{project.title}</HeaderThree>
-            <Hr/>
-          </TitleContent>
-          <CardInfo>{project.description}</CardInfo>
-          <div>
-            <TitleContent>Tech Stack</TitleContent>
-            <TagList>
-              {project.tags.map((tag, i)=>(
-                <Tag key={i}>{tag}</Tag>
-              ))}
-            </TagList>
-          </div>
-          <UtilityList>
-            <ExternalLinks href={project.source}>Code</ExternalLinks>
-            <ExternalLinks href={project.visit}>Live site</ExternalLinks>
-          </UtilityList>
-        </BlogCard>
-      ))}
-    </GridContainer>
-  </Section>
+    <Section nopadding id="projects">
+        <SectionDivider />
+        <SectionTitle main>Projects</SectionTitle>
+        <GridContainer>
+            {projects.map((project) => (
+                <BlogCard>
+                    {project.inDevelopment ? <StyledBadge color="#22a4c9">In Development</StyledBadge> : <StyledBadge color="#2E9900">Completed</StyledBadge>}
+                    <Img src={project.image} />
+                    <TitleContent>
+                        <HeaderThree title>{project.title}</HeaderThree>
+                        <Hr />
+                    </TitleContent>
+                    <CardInfo>{project.description}</CardInfo>
+                    <div>
+                        <TitleContent>Tech Stack</TitleContent>
+                        <TagList>
+                            {project.tags.map((tag, i) => (
+                                <Tag key={i}>{tag}</Tag>
+                            ))}
+                        </TagList>
+                    </div>
+                    <UtilityList>
+                        <ExternalLinks href={project.source}>Code</ExternalLinks>
+                        <ExternalLinks href={project.visit}>Live site</ExternalLinks>
+                    </UtilityList>
+                </BlogCard>
+            ))}
+        </GridContainer>
+    </Section>
 );
 
 export default Projects;

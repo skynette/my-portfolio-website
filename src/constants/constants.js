@@ -1,5 +1,15 @@
 export const projects = [
 	{
+		title: 'e-commerce-admin',
+		description: "e-commerce-admin is a user-friendly web application tailored to streamline and manage various functions within an e-commerce platform, including inventory management, order processing, and customer engagement",
+		image: '/images/e-commerce-admin.png',
+		tags: ['NextJs', 'Tailwindcss','Typescript'],
+		source: 'https://github.com/skynette/e-commerce-admin',
+		visit: 'https://e-commerce-admin-josh.vercel.app/',
+		id: 31,
+		inDevelopment: true,
+	},
+	{
 		title: 'uTube',
 		description: "uTube is a web application built with React and Material UI that allows users to search and watch YouTube videos.",
 		image: '/images/uTube.png',
